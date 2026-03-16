@@ -29,7 +29,7 @@ class PreviewScreen extends StatelessWidget {
                 itemBuilder: (context, index) {
                   return Container(
                     color: Colors.grey[300],
-                    child: const Center(
+                    child: Center(
                       child: Text('Screenshot ${index + 1}'),
                     ),
                   );
